@@ -1,4 +1,8 @@
 /**
+*@file AllTests.cpp
+*@author Changjiang Liu
+*/
+/*
 //- ------------------------------------------------------------------
 //-    Copyright (c) James W. Grenning -- All Rights Reserved         
 //-    For use by owners of Test-Driven Development for Embedded C,   
@@ -19,6 +23,9 @@
 */
 #include "CppUTest/CommandLineTestRunner.h"
 
+/**
+*函数功能
+*/
 int main(int argc, char** argv)
 {
     return CommandLineTestRunner::RunAllTests(argc, argv);
